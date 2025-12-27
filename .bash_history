@@ -31,3 +31,24 @@ echo -e 'This is readme' > README.md
 ls
 mkdir python_import_modules
 ls
+git add .
+git commit -m 'initial commit'
+git push origin main
+ls
+cd py*
+touch add-0
+touch 0-import-add
+touch 0-add
+nano add-0
+nano 0-import-add
+ls
+cd py*
+ls
+nano 0-add
+ls
+cd py*
+nano 0-add
+nano 0-add
+cd py*
+nano 0-add
+cd ..
