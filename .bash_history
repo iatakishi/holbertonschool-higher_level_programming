@@ -73,3 +73,15 @@ git push origin main
 cd ..
 mv python_import_modules python-import_modules
 ls
+git add .
+git commit -m '0 fix'
+git push origin main
+ls
+cp README.md py*
+ls
+cd ..
+ls
+cd root
+cd py*
+ls
+cd ..
