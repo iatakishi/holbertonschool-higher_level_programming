@@ -52,3 +52,24 @@ nano 0-add
 cd py*
 nano 0-add
 cd ..
+git add .
+git commit -m '0'
+git push origin main
+cd py*
+ls
+mv 0-add 0-add.py
+ls
+mv add-0 add-0.py
+ls
+mv 0-import-add 0-import-add.py
+ls
+rm 0*save
+ls
+chmod +x *
+ls
+git add .
+git commit -m '0 fixed'
+git push origin main
+cd ..
+mv python_import_modules python-import_modules
+ls
