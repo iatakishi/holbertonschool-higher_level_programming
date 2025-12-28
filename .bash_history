@@ -85,3 +85,16 @@ cd root
 cd py*
 ls
 cd ..
+git reset --hard origin/main
+ls
+rm *school*
+rmdir my_school
+cd my*
+rm *
+cd ..
+rmdir my*
+ls
+rm not*
+rm ready*
+rmdir em*
+ls
