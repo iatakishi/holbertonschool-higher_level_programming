@@ -10,4 +10,3 @@ if __name__ == "__main__":
         print("{} argument{}:".format(count, "" if count == 1 else "s"))
         for i, arg in enumerate(args, start=1):
             print("{}: {}".format(i, arg))
-
