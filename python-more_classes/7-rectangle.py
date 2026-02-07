@@ -52,7 +52,8 @@ class Rectangle:
     def __str__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        return "\n".join(Rectangle.print_symbol * self.width for _ in range(self.height))
+        symbol = str(self.print_symbol)
+        return "\n".join(symbol * self.width for _ in range(self.height))
 
     def __repr__(self):
         return f"Rectangle({self.width}, {self.height})"
